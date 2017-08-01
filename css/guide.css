@@ -1,0 +1,191 @@
+body{
+	background: #F2F2F2;
+}
+header {
+	width: 100%;
+	background: white;
+}
+.header .row{
+	margin: 0;
+}
+.pro_guide_main{
+	background-color: #fff;
+	margin-bottom: 15px;
+    margin-top: 15px;
+}
+.pro_guide_main .v-fold{
+	clear: both;
+	padding: 10px 0;
+	height: 40px;
+	line-height: 20px;
+}
+.pro_guide_main .v-fold+.v-fold{
+	border-top: 1px solid rgb(227,227,227);
+}
+.pro_guide_main .v-fold b{
+	float: left;
+    width: 100px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+.pro_guide_main .v-fold li{
+	float: left;
+}
+.pro_guide_main .v-fold li a{
+	padding: 5px 3px;
+	color: #333;
+}
+.pro_guide_main .v-fold li a:hover{
+	text-decoration: none;
+	color: #fd4f00;
+}
+.pro_guide_main .v-fold li.cur a{
+	color: #fd4f00;
+}
+
+.container{
+	overflow: hidden;
+}
+.con{
+	width: 1200px;
+}
+.act{
+	height: 45px;
+	line-height: 45px;
+	width: 100%;
+}
+.act a{
+	display: block;
+	width: 33.33333%;
+	float: left;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+}
+.act a.tm,.act a.jd{
+	background: #FF6C00;
+}
+.act a.xh{
+	background: #FF3C00;
+	font-weight: bold;
+}
+.product{
+	padding: 0;
+    float: left;
+   	width: 363px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+.product .thumbnail{
+	border: none;
+	transition: border .2s ease-in-out;
+	margin-bottom: 0;
+}
+.line4p20{
+	height: 0px;
+    border-top: 1px dotted #bcbcbc;
+    margin: 0 20px;
+    padding: 0px;
+}
+.product h2{
+	font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    padding: 0 20px;
+    height: 60px;
+    line-height: 60px;
+    overflow: hidden;
+    text-align: left;
+    margin: 0;
+}
+.product h2 span{
+	font-weight:normal;
+}
+.product .caption{
+	margin: 0;
+	padding: 0;
+	background: white;
+}
+.caption{
+	position: relative;
+}
+.caption p{
+	margin: 0;
+    padding: 0 20px;
+    text-align: left;
+    line-height: 24px;
+    color: #555;
+    padding-top: 18px;
+    padding-bottom: 30px;
+}
+.caption .xinpin{
+	z-index: 10;
+	position: absolute;
+    height: 79px;
+    width: 79px;
+    right: 0px;
+    bottom: 0px;
+    background:url(../img/state3.png) no-repeat right bottom;
+}
+@media (max-width: 1199px) and (min-width: 992px){
+	.con{
+		width: 993px;
+	}
+	.product{
+		width: 300px;
+		margin-right: 20px;
+	}
+}
+@media (max-width: 991px) and (min-width: 768px){
+	.con{
+		width: 774px;
+	}
+	.product{
+		width: 225px;
+		margin-right: 22px;
+	}
+	.product h2{
+		text-align: center;
+	}
+	.act a{
+		font-size: 16px;
+	}
+}
+@media (max-width: 767px){
+	.con{
+		width: 100%;
+	}
+	.v-fold ul a{
+		overflow: hidden;
+		/*white-space:nowrap;	强制不换行*/
+	}
+	.container{
+		margin: 0;
+		padding: 0;
+	}
+	.product{
+		width: 100%;
+	}
+	.caption p{
+		text-align: center;
+	}
+	.product h2{
+		text-align: center;
+	}
+}
+
+.product{
+	margin-top: 10px;
+	transition: border .2s ease-in-out;
+}
+.product .thumbnail{
+	transition: .5s;
+}
+.product .thumbnail:hover{
+	background: transparent;
+	box-shadow: 0px 0px 7px white;
+	transition: All .5s linear;
+}

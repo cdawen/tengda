@@ -1,0 +1,199 @@
+body{
+	background: #F2F2F2;
+}
+header {
+	width: 100%;
+	background: white;
+}
+.header .row{
+	margin: 0;
+}
+.banner{
+	background: #f4f4f4;
+}
+.title h3{
+	font-size: 1.6em;
+    margin-top: 3em;
+    color: #000;
+    font-weight: bold;
+}
+.title p{
+	font-size: 1em;
+    margin-top: 1em;
+    color: #555;
+    padding-bottom: 0.5em;
+}
+.searchForm{
+	margin-top: 0.5em;
+    border: solid 2px #fd4f00;
+    height: 37px;
+    width: 280px;
+    padding: 2px;
+    position: relative;
+}
+.searchForm .text{
+	position: absolute;
+	top: 0;
+	left: 0;
+	outline:0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+	padding-left: 10px;
+	padding-right: 45px;
+}
+.searchForm .btnSearch{
+	position: absolute;
+	top: -2px;
+	right: -1px;
+	background:url(../img/btnfaq.png) no-repeat;
+	z-index: 10;
+	width: 39px;
+	height: 45px;
+	outline: none;
+	border: 0;
+}
+.title a{
+	display: block;
+	color: #333;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.title a:hover{
+	color: #FD4F00;
+	text-decoration: none;
+}
+.titleImg img{
+	width: 95%;
+}
+@media (max-width: 768px) {
+	.title{
+		margin: 0 auto;
+		text-align: center;
+	}
+	.title h3{
+		margin-top: 10px;
+	}
+	.title .searchForm{
+		margin: 1em auto;
+	}
+	.title a{
+		text-align: center;
+		line-height: 40px;
+	}
+}
+
+
+.serviceHomeRow2{
+	background: white;
+	padding: 4em 0;
+}
+.serviceHomeRow2 li{
+	float: left;
+	text-align: center;
+}
+.serviceHomeRow2 li a{
+	text-decoration: none;
+}
+.serviceHomeRow2 li p{
+	line-height: 40px;
+	color: #333;
+	opacity: 0.8;
+	font-family: "微软雅黑";
+}
+.serviceHomeRow2 li i{
+	display: block;
+	color: #777;
+	font-family: "微软雅黑";
+	height: 2.4em;
+	line-height: 1.2em;
+	margin-top: 25px;
+}
+
+
+.serviceHomeRow3{
+	background: #F2F2F2;
+	padding: 2em 0;
+}
+.serviceHomeRow3 h2 ,.tenda_video h2{
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	color: #000;
+	background: url(../img/lineb.png) no-repeat center bottom;
+}
+
+.serviceHomeRow3 .list {
+	height: 55px;
+	line-height: 55px;
+	text-align: center;
+}
+
+.serviceHomeRow3 .list a{
+	color: #000;
+	text-decoration: none;
+}
+
+.serviceHomeRow3 .list span{
+	padding: 0 2px;
+	font-size: 16px;
+}
+
+.serviceHomeRow3 .list a:hover{
+	color: #FF7700;
+}
+
+.serviceHomeRow3 ul li{
+	height: 35px;
+	line-height: 35px;
+	overflow: hidden;
+	display:block;
+	white-space:nowrap; 
+	text-overflow:ellipsis;
+	padding-left: 25px;
+	background: url(../img/default/i.png) no-repeat left center;
+}
+.serviceHomeRow3 ul li a{
+	color: #000;
+	opacity: 0.8;
+}
+.serviceHomeRow3 ul li a:hover{
+	text-decoration: none;
+	color: #F70;
+}
+@media (max-width: 768px) {
+	.serviceHomeRow3 li{
+		    float: none ! important;
+	}
+}
+
+.serviceHomeRow4{
+	background-color: #fff;
+    padding: 4em 0;
+    text-align: center;
+}
+.serviceHomeRow4 li{
+	padding: 3em 0;
+}
+.serviceHomeRow4 a{
+	text-decoration: none;
+}
+.serviceHomeRow4 img{
+	height: 48px;
+}
+.serviceHomeRow4 p{
+	font-size: 16px;
+	color: #333;
+	line-height: 30px;
+	margin-top: 20px;
+}
+.serviceHomeRow4 span{
+	color: #999;
+	font-size: 14px;
+}

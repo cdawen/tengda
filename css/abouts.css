@@ -1,0 +1,154 @@
+body{
+	background: #F2F2F2;
+}
+header {
+	width: 100%;
+	background: white;
+}
+header .row{
+	margin: 0;
+}
+
+.content_top{
+	border: solid 1px #f3f3f3;
+    background-color: #fff;
+    margin: 15px 0px;
+    padding: 0 15px 15px 15px;
+}
+.content_title{
+	width: 100%;
+	height: 40px;
+	margin: 20px 0px 0px 0px;
+}
+.content_title a{
+	display:inline-block;
+	float: left;
+	width: 126px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background: #f2f2f2;
+	color: #333;
+	margin-right: 10px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+.content_title a.cur{
+	background: #F60;
+	color: white;
+}
+.content_title a:hover{
+	text-decoration: none;
+	color:#F60;
+}
+.content_title a.cur:hover{
+	color: white;
+}
+.unchecked a{
+	background: #f2f2f2 url(../img/unchecked.png) no-repeat 10px center;
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+	.content_title{
+		width: 100%;
+		height: 40px;
+		margin: 10px 0px 0px 0px;
+	}
+	.content_title a{
+		width: 100px;
+		height: 40px;
+		line-height: 40px;
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+	.content_title{
+		width: 100%;
+		height: 30px;
+		margin: 10px 0px 0px 0px;
+	}
+	.content_title a{
+		width: 80px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 12px;
+		margin-right: 5px;
+	}
+	.unchecked a{
+		background: #f2f2f2 url(../img/unchecked.png) no-repeat 5px center;
+	}
+}
+
+@media (max-width: 768px) {
+	.container{
+		padding: 0;
+	}
+	.content_top{
+		margin: 0;
+	}
+	.content_title{
+		width: 100%;
+		height: 30px;
+		margin: 10px 0px 0px 0px;
+	}
+	.content_title a{
+		width: auto;
+		height: 30px;
+		line-height: 30px;
+		font-size: 12px;
+		margin-right: 10px;
+		padding: 0px 5px;
+		margin-top: 5px;
+	}
+	.unchecked{
+		clear: both;
+	}
+	.unchecked a{
+		background: #f2f2f2;
+	}
+}
+@media (max-width: 420px){
+	.content_title{
+		width: 100%;
+		height:70px;
+		margin: 10px 0px 0px 0px;
+	}
+} 
+
+.section-center{
+	padding: 60px 0;
+	background: white;
+}
+.section-center li{
+	text-align: center;
+}
+.section-center li img{
+	width: 100%;
+}
+.section-center li p{
+	font-size: 20px;
+	font-weight: 300;
+	padding: 20px 20px 10px 20px;
+	color: #3d444f;
+	font-family: "微软雅黑";
+}
+
+
+.pagecontent{
+	background: #F7F8F9;
+	padding: 4em 15px;
+}
+.pagecontent p{
+	padding-top: 20px;
+	padding-bottom: 0px;
+	margin: 0;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #000;
+}
+.pagecontent li{
+	color: #f60;
+	text-indent: 3em;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
